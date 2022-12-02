@@ -1,12 +1,5 @@
-import scala.collection.immutable._
-import scala.collection.mutable._
-import scala.collection.concurrent._
-import scala.concurrent._
 import scala.io._
-import scala.math._
-import scala.sys._
-import scala.util.matching._
-import scala.reflect._
+
 
 // https://www.hackerrank.com/challenges/crossword-puzzle/problem
 
