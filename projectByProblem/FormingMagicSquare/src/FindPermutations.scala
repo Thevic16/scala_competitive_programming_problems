@@ -5,6 +5,7 @@ object FindPermutations extends App {
   import FindPermutationUtility._
 
   private val allPossiblesSquares: Array[Array[Int]] = getAllPosiblesSquares()
+  //printSquares(allPossiblesSquares)
   private val allPossiblesMagicSquares: Array[Array[Int]] = allPossiblesSquares.filter(isMagicSquare)
 
   printSquares(allPossiblesMagicSquares)
